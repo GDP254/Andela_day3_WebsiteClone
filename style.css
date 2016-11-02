@@ -1,0 +1,47 @@
+.center {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+    text-align: center;
+}
+/*
+.item_category{
+	background:red;
+	top:auto;
+	height: 250px;
+	width: 80%;
+}
+*/
+#topbar {
+  position: fixed;
+  background:#e2e3e6;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  width: 100%;
+  height: auto;
+}
+
+#logo {
+	background:#e2e3e7;
+	height: 50%;
+	width: 20%;
+	position-left: 40%;
+}
+
+#links {
+	background:#e2e3e7;
+	height: 50%;
+	width: 60%;
+}
+
+#content {
+	position: absolute;
+	background:white;
+	top: auto;
+	left: 0;
+	margin: auto;
+	height: 100%;
+	width: 100%
+}
